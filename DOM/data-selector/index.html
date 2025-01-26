@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data Selector</title>
+  </head>
+  <body>
+    <button
+      id="btn1"
+      onclick="changeColor()"
+      onmouseover="changeText()"
+      onmouseout="oriText()"
+    ></button>
+    <button
+      id="btn2"
+      onmouseover="handleMouseEnter('Terimakasih telah submit 2')"
+      onmouseout="handleMouseLeave('pink')"
+    ></button>
+
+    <!-- Tempat untuk menampilkan teks -->
+    <h1 id="outputText" style="color: black"></h1>
+    <script src="/data-selector/main.js"></script>
+  </body>
+</html>
