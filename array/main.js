@@ -1,32 +1,19 @@
 const datas = [
   {
-    name: "sajid",
-    stack: "programmer fullstack",
-    age: "16",
+    nama: "Sajid",
+    age: 16,
+    role: "Front End Dev",
   },
   {
-    name: "wahyu",
-    stack: "pro player valorant",
-    age: "20",
+    nama: "Rizky",
+    age: 15,
+    role: "Foto Grafer",
   },
   {
-    name: "deny",
-    stack: "gamer terkenal",
-    age: "34",
-  },
-  {
-    name: "fachrul",
-    stack: "proplayer minecraft",
-    age: "15",
-  },
-  {
-    name: "luhung",
-    stack: "exp",
-    age: "11",
+    nama: "Haikal",
+    age: 20,
+    role: "UX / UX",
   },
 ];
 
-datas
-  .sort((a, b) => b.age - a.age)
-  .filter((x) => x.age > 16)
-  .map((values) => console.log(values));
+datas.sort((a, b) => a.age - b.age).map((values) => console.log(values));

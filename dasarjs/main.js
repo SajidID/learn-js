@@ -6,16 +6,14 @@
 **/
 
 // tugas 1
-
-let saldoAwal = 9000;
-let saldoTambahan = 6500;
-const saldoAkhir = saldoAwal + saldoTambahan;
-
+const saldoAwal = 9000;
+const saldoAkhir = 8000;
+console.log(saldoAwal + saldoAkhir);
 alert(
-  `saldo awal saya Rp${saldoAwal} sedangkan saya memiliki saldo tambahan sebesar Rp${saldoTambahan} jadi total saldo saya adalah Rp${saldoAkhir}`
+  ` saldo awal ${saldoAwal} saldo akhir ${saldoAkhir} hasil akhir ${
+    saldoAwal + saldoAkhir
+  }`
 );
-
-// tugas 1 selesai
 
 // tugas 2
 
@@ -28,8 +26,7 @@ const namaHari = [
   "hari ini adalah hari Jumat",
   "hari ini adalah hari Sabtu",
 ];
-const hari = new Date().getDay();
 
-let hariIni = namaHari[hari];
-
-console.log(hariIni);
+const hariIni = new Date().getDay();
+let hari = namaHari[hariIni];
+console.log(hari);
