@@ -6,45 +6,44 @@
     <title>Mouseover dan Mouseout</title>
     <style>
       button {
-        background-color: rgb(4, 255, 100);
-        color: rgb(0, 0, 0);
-        padding: 10px 20px;
+        background-color: rgb(255, 114, 114);
+        color: white;
+        padding: 20px 40px;
         border: none;
         cursor: pointer;
-        font-size: 16px;
+        font-size: 20px;
       }
       #outputText {
-        margin-top: 20px;
-        font-size: 18px;
+        font-size: 20px;
         font-weight: bold;
+        margin-top: 40px;
       }
     </style>
   </head>
   <body>
-    <!-- Tombol -->
     <button
-      onmouseover="handleMouseEnter('Hai teman, apa kabar mu?')"
-      onmouseout="handleMouseLeave('blue')"
+      onmouseover="handleMouseEnter('Say Hiii!')"
+      onmouseout="handleMouseLeave('green')"
     >
       Hover Saya
     </button>
 
     <!-- Tempat untuk menampilkan teks -->
-    <p id="outputText" style="color: black"></p>
+    <p id="outputText"></p>
 
     <!-- Script JavaScript -->
     <script>
-      // Fungsi untuk menangani mouse masuk
+      // Fungsi untuk mouse masuk
       function handleMouseEnter(message) {
         const output = document.getElementById("outputText");
         output.innerText = message;
-        output.style.color = "black"; // Warna teks saat mouse masuk
+        output.style.color = "black";
       }
 
-      // Fungsi untuk menangani mouse keluar
+      // Fungsi untuk mouse keluar
       function handleMouseLeave(color) {
         const output = document.getElementById("outputText");
-        output.style.color = color; // Ubah warna teks saat mouse keluar
+        output.style.color = color;
       }
     </script>
   </body>

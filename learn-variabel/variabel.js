@@ -70,6 +70,6 @@ alert(
   `Hai nama saya ${namaSaya} umur saya ${umurSaya} alamat saya ${alamatSaya}`
 );
 
-console.log("nama saya", namaSaya);
+console.log(`nama saya ${namaSaya}`);
 console.log("umur saya", umurSaya);
 console.log("alamat saya", alamatSaya);

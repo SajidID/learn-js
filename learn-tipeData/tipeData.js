@@ -1,10 +1,8 @@
-let namaSiswa = "Ahmad Shobri"; //string
-let umurSiswa = 20; //number
-let jurusanSiswa = "RPL"; //string
-let sudahMembayar = true; //bool
+let namaSiswa = "Sajid Abdul Fatah";
+let kelasSiswa = 11;
+let bopSiswa = true;
 
-console.log("=== Data Siswa ===");
+console.log("Daftar Siswa");
 console.log(`Nama Siswa ${namaSiswa}`);
-console.log(`Umur Siswa ${umurSiswa}`);
-console.log(`Jurusan Siswa ${jurusanSiswa}`);
-console.log(`Sudah Mmebayar? ${sudahMembayar}`);
+console.log(`Kelas ${kelasSiswa}`);
+console.log(`Sudah bayar BOP? ${bopSiswa}`);
