@@ -1,19 +1,18 @@
-const datas = [
-  {
-    nama: "Sajid",
-    age: 16,
-    role: "Front End Dev",
-  },
-  {
-    nama: "Rizky",
-    age: 15,
-    role: "Foto Grafer",
-  },
-  {
-    nama: "Haikal",
-    age: 20,
-    role: "UX / UX",
-  },
-];
+// struktur data javascript untuk menyimpan kumpulan nilai dalam satu variabel
 
-datas.sort((a, b) => a.age - b.age).map((values) => console.log(values));
+const dataSiswa = [
+  {
+    nama: 'Ahmad',
+    nilai: 89,
+    sekolah: 'SMA Negeri 1'
+  },
+  {
+    nama: 'Andy',
+    nilai: 79,
+    sekolah: 'SMA Negeri 2'
+  }
+]
+
+dataSiswa
+   .sort((a, b) => b.nilai - a.nilai)
+   .map((value) => console.log(value))

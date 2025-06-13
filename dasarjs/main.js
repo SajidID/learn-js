@@ -6,26 +6,14 @@
 **/
 
 // tugas 1
-const saldoAwal = 9000;
-const saldoAkhir = 8000;
-console.log(saldoAwal + saldoAkhir);
-alert(
-  ` saldo awal ${saldoAwal} saldo akhir ${saldoAkhir} hasil akhir ${
-    saldoAwal + saldoAkhir
-  }`
-);
+const saldoAwal = 10000;
+const saldoAkhir = 100000;
+const saldo = saldoAwal + saldoAkhir;
+console.log(saldo);
+
 
 // tugas 2
-
-const namaHari = [
-  "hari ini adalah hari Ahad",
-  "hari ini adalah hari Senin",
-  "hari ini adalah hari Selasa",
-  "hari ini adalah hari Rabu",
-  "hari ini adalah hari Kamis",
-  "hari ini adalah hari Jumat",
-  "hari ini adalah hari Sabtu",
-];
+const namaHari = ["Ahad", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"];
 
 const hariIni = new Date().getDay();
 let hari = namaHari[hariIni];

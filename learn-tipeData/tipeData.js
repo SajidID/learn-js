@@ -1,8 +1,9 @@
-let namaSiswa = "Sajid Abdul Fatah";
-let kelasSiswa = 11;
-let bopSiswa = true;
+const nama = "Ahmad";
+const umur = 20;
+const isStudy = true;
+const hobbies = ["membaca", "menulis", "berolahraga"];
 
-console.log("Daftar Siswa");
-console.log(`Nama Siswa ${namaSiswa}`);
-console.log(`Kelas ${kelasSiswa}`);
-console.log(`Sudah bayar BOP? ${bopSiswa}`);
+console.log(nama);
+console.log(umur);
+console.log(isStudy);
+console.log(hobbies);
